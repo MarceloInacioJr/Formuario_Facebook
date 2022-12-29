@@ -1,0 +1,213 @@
+/* tipo fonte */
+.tipo-fonte {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: normal;
+    text-decoration: none;
+}
+
+/* Container */
+.container {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(240, 248, 255, 0.657);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Logo Facebook */
+.logo-facebook img {
+    height: 100px;
+}
+
+/* Conteudo */
+.conteudo {
+    margin-top: 10px;
+    height: 82vh;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 3px 11px -1px rgba(133, 133, 133, 1);
+    -moz-box-shadow: 0px 3px 11px -1px rgba(133, 133, 133, 1);
+    box-shadow: 0px 3px 11px -1px rgba(133, 133, 133, 1);
+
+}
+
+
+/* Titulo e subtitulo */
+
+#titulo-conteudo {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 150%;
+}
+
+#subtitulo-conteudo {
+    color: gray;
+    font-size: 15px;
+    margin-bottom: 10px;
+
+}
+
+#borda {
+
+    width: 100%;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.3);
+}
+
+/* Fomulario */
+.caixa-entrada {
+    margin-top: 15px;
+    display: grid;
+    grid-template-areas:
+        "nome sobrenome"
+        "email email"
+        "senha senha";
+    gap: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.formulario input,
+.style-input {
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+
+}
+
+#nome {
+    grid-area: nome;
+}
+
+#sobrenome {
+    grid-area: sobrenome;
+}
+
+#email {
+    grid-area: email;
+}
+
+#novasenha {
+    grid-area: senha;
+}
+
+/* Data nascimento  */
+
+.formulario label {
+    text-align: start;
+
+}
+
+.label {
+    color: gray;
+    font-size: 12px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+
+.data-nascimento {
+    width: 30%;
+    justify-content: space-between;
+}
+
+/* Genero */
+.genero {
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.feminino,
+.masculino,
+.personalizado {
+    height: 35px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 5px;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.masculino,
+.feminino {
+    width: 28%;
+}
+
+.personalizado {
+    width: 38%;
+}
+
+.feminino input,
+.masculino input,
+.personalizado input {
+    margin-top: 10px;
+}
+
+
+/* Termo politica */
+.font-termo-politica {
+    text-align: justify;
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: rgba(128, 128, 128, 0.8);
+}
+
+.termo-politica {
+    margin-top: 15px;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.style-span {
+    color: rgb(3, 3, 182);
+}
+
+
+/* final */
+.final {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.final a {
+    color: rgb(0, 85, 255);
+}
+
+
+/* Botao cadastrar */
+.style-btn {
+
+    height: 35px !important;
+    width: 200px;
+    color: aliceblue;
+    font-weight: 700;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 176, 4);
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.style-btn:hover {
+    background-color: green;
+    color: white;
+    -webkit-box-shadow: 0px 0px 18px -5px rgba(9, 176, 40, 1);
+    -moz-box-shadow: 0px 0px 18px -5px rgba(9, 176, 40, 1);
+    box-shadow: 0px 0px 18px -5px rgba(9, 176, 40, 1);
+}
